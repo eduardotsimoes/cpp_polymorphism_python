@@ -8,5 +8,6 @@ module = Extension('CppInterface',
 setup(name='CppInterface',
       version='1.0',
       description='This is a demo package',
-      ext_modules=[module])
+      ext_modules=[module],
+      py_modules=["PyDerived"])
 
